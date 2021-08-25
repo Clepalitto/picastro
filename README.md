@@ -25,3 +25,10 @@ For now, it is able to
 **Picastro** will ask you some questions to calculate as many things as he can about your photo settings, such as exposure time, prefereable focal lenght ...
 
 > But **be aware** that Picastro will **not teach** you astrophotography, it is just here to help 😉 !
+
+## Sources
+
+For all the formulas, the book `Astrophotography`, by Thierry Legault was used.
+
+> 
+> `Attention ! ` The results that will appear in the program (such as sensor sight angle or preferable focal length) may be wrong. Please try to cross sources 😉 !
