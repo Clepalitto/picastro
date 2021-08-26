@@ -32,3 +32,5 @@ For all the formulas, the book `Astrophotography`, by Thierry Legault was used.
 
 > 
 > `Attention ! ` The results that will appear in the program (such as sensor sight angle or preferable focal length) may be wrong. Please try to cross sources 😉 !
+
+# And don't forget to contribute !
