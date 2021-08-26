@@ -56,6 +56,7 @@ int main()
         cout << "Your sensor will 'see' an angle of " << chp << " °." << endl;
         cout << "Your sampling is " << sampling << "''." << endl;
     }
+    // for .exe file not to close too quick
     string out;
     cin >> out;
     return 0;
