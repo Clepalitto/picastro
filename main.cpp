@@ -11,14 +11,14 @@ int main()
     cout << "Picastro will ask you a series of questions to calculate anything he can about what you can picture, how , etc..." << endl;
     cout << "" << endl;
     double angle_obj;;
-    cout << "How large is the object you want to photography ? (in arch degrees °) " ;
+    cout << "How large is the object you want to photography ? (in arch degrees Â°) " ;
     cin >> angle_obj;
     double focal;
     cout << "Focal length of your 'objective' (mm) " ;
     cin >> focal;
     double sampling = 206*(8/focal);
     string sensor;
-    cout << "What type of sensor is it ? ('1' for APS-C, '2' for 24x36, '3' for other) " ;
+    cout << "What type of sensor is it ? ('1' for APS-C, '2' for 24x36 (full frame), '3' for other) " ;
     cin >> sensor;
     if(sensor == "1"){
         // for APS-C
@@ -27,7 +27,7 @@ int main()
         double focal_for_ang = 57.3*(23/(angle_obj+0.5));
         cout << "" << endl;
         cout << "For the object you want to picture, I would suggest a focal of " << focal_for_ang << " mm." << endl;
-        cout << "Your sensor will 'see' an angle of " << chp << " °." << endl;
+        cout << "Your sensor will 'see' an angle of " << chp << " Â°." << endl;
         cout << "I would suggest " << exposuretime << "s of exposure time." << endl;
         cout << "Your sampling is " << sampling << "''." << endl;
     }
@@ -39,7 +39,7 @@ int main()
         // results
         cout << "" << endl;
         cout << "For the object you want to picture, I would suggest a focal of " << focal_for_ang << " mm." << endl;
-        cout << "Your sensor will 'see' an angle of " << chp << " °." << endl;
+        cout << "Your sensor will 'see' an angle of " << chp << " Â°." << endl;
         cout << "I would suggest " << exposuretime << "s of exposure time." << endl;
         cout << "Your sampling is " << sampling << "''." << endl;
     }
@@ -53,7 +53,7 @@ int main()
         // results
         cout << "" << endl;
         cout << "For the object you want to picture, I would suggest a focal of " << focal_for_ang << " mm." << endl;
-        cout << "Your sensor will 'see' an angle of " << chp << " °." << endl;
+        cout << "Your sensor will 'see' an angle of " << chp << " Â°." << endl;
         cout << "Your sampling is " << sampling << "''." << endl;
     }
     string out;
