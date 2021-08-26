@@ -29,6 +29,8 @@ For now, it is able to
 ## Sources
 
 For all the formulas, the book `Astrophotography`, by Thierry Legault was used.
+And thanks to <a href="https://unsplash.com/@jeremythomasphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeremy Thomas</a> on <a href="https://unsplash.com/s/photos/astrophotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> for the front repo picture.
+  
 
 > 
 > `Attention ! ` The results that will appear in the program (such as sensor sight angle or preferable focal length) may be wrong. Please try to cross sources 😉 !
