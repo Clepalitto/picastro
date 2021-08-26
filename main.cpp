@@ -10,7 +10,7 @@ int main()
     cout << "" << endl;
     cout << "Picastro will ask you a series of questions to calculate anything he can about what you can picture, how , etc..." << endl;
     cout << "" << endl;
-    double angle_obj;;
+    double angle_obj;
     cout << "How large is the object you want to photography ? (in arch degrees °) " ;
     cin >> angle_obj;
     double focal;
