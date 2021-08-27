@@ -14,7 +14,7 @@ int main()
     cout << "How large is the object you want to photography ? (in arch degrees °) " ;
     cin >> angle_obj;
     double focal;
-    cout << "Focal length of your 'objective' (mm) " ;
+    cout << "Focal length of your lens (mm) " ;
     cin >> focal;
     double sampling = 206*(8/focal);
     string sensor;
